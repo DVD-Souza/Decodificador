@@ -7,7 +7,3 @@
 * HTML: It was used for marking and structuring the web page.
 * CSS: It was used for styling and alignment of the page.
 * JavaScript: It was used to give interactivity to page elements.
-
-
-
-
