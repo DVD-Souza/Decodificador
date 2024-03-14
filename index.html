@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto!</title>
+    <link rel="shortcut icon" href="./assets/decode.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <script defer src="./script/script.js"></script>
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <h1 class="titulo__cabecalho">DECODIFICADOR DE TEXTO</h1>
+            <a href="https://www.flaticon.com/free-icons/decode" title="Decode icons created by Freepik - Flaticon">
+                <img src="./assets/lupa.png" alt="A imagem de uma lupa com entalhe preto." class="imagem__cabecalho">
+            </a>
+        </section>
+    </header>
+    <main>
+        <div class="container_input">
+            <div class="input">
+                <textarea id="input-text" placeholder="Digite o texto criptografado aqui..."></textarea>
+                <p class="paragrafo__input">ATENÇÂO: APENAS LETRAS MINÚSCULAS SÃO PERMITIDAS.</p>
+            </div>
+            
+            <div id="output-text" class="output__estilo">
+                <span>O seu texto aparecerá aqui...</span>
+            </div>
+        </div>
+        <div class="botoes">
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h2>Desenvolvido por Deivid Souza.</h2>
+        <a href="https://www.google.com.br/"><img src="./assets/logotipo-do-linkedin.png" alt="Logo linkedin." class="icon"></a>
+        <a href="https://www.microsoft.com/pt-br"><img src="./assets/github.png" alt="Logo github." class="icon"></a>
+    </footer>
+</body>
+</html>

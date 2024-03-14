@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ojuju:wght@200..800&display=swap');
+
+:root{
+    --cor_principal: #FBA834;
+    --cor_secundaria: white;
+    --cor_terciaria: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ojuju';
+}
+
+body{
+    background-color: var(--cor_terciaria);
+    color: var(--cor_terciaria);
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    padding: 1%;
+    border-bottom: solid;
+    background-color: var(--cor_secundaria);
+    width: 100%;
+    height: 20%;
+}
+
+.titulo__cabecalho{
+    color: var(--cor_terciaria);
+}
+
+a{
+    width: 5%;
+}
+
+.imagem__cabecalho{
+    width: 50%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 60vh;
+}
+
+#input-text{
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--cor_secundaria);
+    outline: 0;
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.paragrafo__input{
+    margin-left: 5%;
+    color: var(--cor_secundaria);
+
+}
+
+
+.output__estilo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 70vh;
+    border: 5px solid white;
+    background-color: transparent;
+    color: var(--cor_secundaria);
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 2rem;
+    float: right;
+    background-color: var(--cor_terciaria);
+}
+
+span{
+    color: var(--cor_secundaria);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+
+.btn-criptografar{
+    width: 10rem;
+    height: 5rem;
+    border: solid white;
+    border-radius: 10%;
+    margin-left: 2%;
+    background-color: var(--cor_terciaria);
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--cor_secundaria);
+}
+
+.btn-criptografar:hover{
+    background-color: var(--cor_secundaria);
+    color: var(--cor_terciaria);
+    border: solid var(--cor_principal);
+}
+
+.btn-descriptografar{
+    width: 10rem;
+    height: 5rem;
+    border: solid white;
+    border-radius: 10%;
+    margin-left: 8%;
+    background-color: var(--cor_terciaria);
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--cor_secundaria);
+}
+
+.btn-descriptografar:hover{
+    background-color: var(--cor_secundaria);
+    color: var(--cor_terciaria);
+    border: solid var(--cor_principal);
+}
+
+.btn-copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    margin-left: 100%;
+    border: solid white;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    background-color: var(--cor_terciaria);
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--cor_secundaria);
+}
+
+.rodape{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42%;
+    border-top: solid;
+    padding: 1%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: var(--cor_secundaria);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin-left: 20%;
+    width: 50%;
+    height: 50%;
+}
