@@ -63,6 +63,7 @@ a{
     font-size: 2rem;
     margin-left: 5%;
     margin-top: 10%;
+    text-transform: lowercase;
 }
 
 .paragrafo__input{
